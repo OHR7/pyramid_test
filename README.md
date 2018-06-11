@@ -66,7 +66,7 @@ GET request returns a Form to create a new invoice item
 POST request handles the input data in the form to create the new item
 can be send it by the HTML Form or directly with a JSON POST
 
-http://localhost:6543/invoice-item.json?invoice_id=<id of invoice>
+http://localhost:6543/invoice-item.json?invoice_id=[id of invoice]
 GET request returns a JSON with the list of items in the given invoice id
 like this:
 {
