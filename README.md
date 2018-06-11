@@ -4,13 +4,13 @@
 $ git clone git@github.com:OHR7/pyramid_test.git
 
 # Create a Virtual environment 
-$ cd pyramid_test
+$ cd pyramid_test \n
 $ pip install virtualenv
 $ virtualenv test_env
 $ source test_env/bin/activate
 
 # Create a new environment variable for the root of the project virtual environment
-$ export VENV=<path of venv>/test_env/ 
+$ export VENV=[path of venv]/test_env/ 
 
 # Install the dependencies
 $ pip install -e .
