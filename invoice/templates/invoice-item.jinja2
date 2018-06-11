@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>New Invoice Item Page</title>
+</head>
+<body>
+
+    <h1>New Invoice Item Page</h1>
+
+    <h2>Items:</h2>
+    {% for item in results %}
+        <p>{{ item.id }} - {{ item.description }}</p>
+    {% endfor %}
+
+
+    <form action="{{ save_url }}" method="post">
+        Enter the item units:
+        <input name="units" type="text">
+        <br><br>
+
+        Enter a brief description of the items:
+        <input name="description" type="text">
+        <br><br>
+
+        Enter the amount of items:
+        <input name="amount" type="text">
+        <br><br>
+
+        <div class="form-group">
+            <button type="submit" name="form.submitted" value="Save" class="btn btn-default">Save</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
