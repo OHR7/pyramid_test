@@ -1,7 +1,7 @@
 # pyramid_test
 
 # Clone from github AKA Microsoft :P
-$ git clone git@github.com:OHR7/pyramid_test.git
+$ git clone https://github.com/OHR7/pyramid_test.git
 
 # Create a Virtual environment 
 $ cd pyramid_test \n
