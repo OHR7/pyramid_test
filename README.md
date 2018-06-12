@@ -3,6 +3,10 @@
 # Clone from github AKA Microsoft :P
 $ git clone https://github.com/OHR7/pyramid_test.git
 
+# Install SQLite
+go to SQLite homepage download and install SQLite for your OS
+https://www.sqlite.org/index.html
+
 # Create a Virtual environment 
 $ cd pyramid_test \n
 
